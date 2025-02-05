@@ -35,7 +35,8 @@ Responds with an array of MenuItem objects (or an error message if something goe
 
 **POST /menu**: Creates a new menu item in the database.
 - Accepts the required fields in the request body.
-- Responds with a success message and the newly created object (or an error message if something goes wrong).
+- Responds with a success message and the newly created
+ object (or an error message if something goes wrong).
 
 **GET /menu**: Fetches the entire list of menu items.
 - Responds with an array of `MenuItem` objects (or an error message if something goes wrong).
